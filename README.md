@@ -1,18 +1,32 @@
-# My Node.js API
+# How to use
 
-## Description
+## Auth 
+/api/users/register
+HTTP Method: POST
+Description: Registers a new user.
 
-This API provides ... (brief explanation of functionality).
+/api/users/login
+HTTP Method: POST
+Description: Login user.
 
-## Installation
+/api/users/tasks
+HTTP Method: POST
+Description: Create new Task.
+## Tasks
+/api/users/tasks
+HTTP Method: GET
+Description: Get all tasks.
 
+/api/users/tasks/:taskId
+HTTP Method: PUT
+Description: Update Task.
 
-### Prerequisites
+/api/users/tasks/:taskId
+HTTP Method: Delete
+Description: Delete Task.
 
-* Node.js version 16.x or later (https://nodejs.org/)
-* npm package manager (usually included with Node.js)
-
-### Clone the repository
-
-```bash
-git clone [https://github.com/your-username/your-api-repository.git](https://github.com/your-username/your-api-repository.git)
+# How to run locally
+1. Clone this repo `https://github.com/Ritesh9919/manager_task.git`
+2. cd `project_name`
+3. run `npm install`
+4. run `npm start`
